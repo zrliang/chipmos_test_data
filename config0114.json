@@ -1,7 +1,7 @@
 [
     {
         "no" : 0,
-        "file_path" : "../0114/",
+        "file_path" : "./0114/",
         "preprocess_files" : [
             {
                 "filename" : "WipOutPlanTime_20220114154236.csv",
@@ -102,13 +102,13 @@
                     "MODEL",
                     "STATUS",
                     "LOT#",
-                    "OPER",
-                    "PRODUCT",
+                    "OPER_x",
+                    "PRODUCT_x",
                     "BOND ID",
                     "OUTPLAN",
                     "IN TIME",
-                    "CUST",
-                    "PIN_PKG",
+                    "CUST_x",
+                    "PIN_PKG_x",
                     "WIP",
                     "PM",
                     "Lot Part Id",
@@ -165,11 +165,11 @@
             }
         ],
         "parameters" : {
-            "times" : [10], 
+            "times" : [300], 
             "process_time_ratio" : [1],
             "max_setup_times" : [180],
             "minute_threshold" : [1000000],
-            "peak_period" : [1],
+            "peak_period" : [0],
             "weight_setup_times" : [200000],
             "weight_max_setup_times" : [1000],
             "weight_total_completion_time" : [1],
