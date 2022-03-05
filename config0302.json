@@ -1,10 +1,10 @@
 [
     {
         "no" : 0,
-        "file_path" : "./0208/",
+        "file_path" : "./0302/",
         "preprocess_files" : [
             {
-                "filename" : "WipOutPlanTime_20220208080529.csv",
+                "filename" : "WipOutPlanTime_20220302080511.csv",
                 "function" : "wip",
                 "columns" : [
                     "route",
@@ -41,7 +41,7 @@
                 "columns" : ["process_id", "Oper", "master_desc", "detail_id", "remark"]
             },
             {
-                "filename" : "FCST_20220208.csv",
+                "filename" : "FCST_20220302.csv",
                 "function" : "fcst",
                 "columns" : [ "bd_id", "da_out", "da_act" ]
             },
