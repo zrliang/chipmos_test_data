@@ -168,12 +168,12 @@
             }
         ],
         "parameters" : {
-            "times" : [10], 
+            "times" : [3000], 
             "process_time_ratio" : [1.14],
             "max_setup_times" : [180],
-            "minute_threshold" : [4320],
-            "peak_period" : [0.5],
-            "weight_setup_times" : [10000000000],
+            "minute_threshold" : [4320,100000000],
+            "peak_period" : [0,0.3,0.5,0.7,1],
+            "weight_setup_times" : [1,1000000000],
             "weight_max_setup_times" : [0],
             "weight_total_completion_time" : [0],
             "weight_cr" : [0.0001],
